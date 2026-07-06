@@ -132,24 +132,6 @@ server = http.createServer((req, res) => {
 
 ## Architecture Overview
 
-```
-Client                    Your Server
-   |                          |
-   +------- GET / ----------->|
-   |                          |
-   |    HTTP Request          |
-   |                      [createServer]
-   |                          |
-   |                    [Check URL]
-   |                          |
-   |<----- 200 OK ------------|
-   |  Content-Type: text/plain|
-   |  "Welcome to your..."    |
-   |                    [Response sent]
-   |
-[Display response]
-```
-
 ---
 
 **Good luck with your first backend! 🚀**
