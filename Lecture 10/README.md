@@ -129,9 +129,3 @@ server = http.createServer((req, res) => {
 });
 
 ---
-
-## Architecture Overview
-
----
-
-**Good luck with your first backend! 🚀**
